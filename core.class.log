@@ -1,0 +1,79 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219993259344@s.whatsapp.net',
+    fromMe: false,
+    id: '8EF8D42EF9CC042E108AE0D4DEC4453E',
+    participant: undefined
+  },
+  messageTimestamp: 1708354506,
+  pushName: 'Elias U Xool-Feria🎮',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '5219993259344'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_d9cd6b91-1c77-41d8-a385-9dfab36d0c9e',
+  keyword: 'key_27e696ad-a8de-422f-b38d-c00806ac7874',
+  answer: '¡Buen día! Bienvenido a la pastelería "La Condesa"',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '2a5201b38f70dc224599f859511a74b1'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_8c4d012a-7344-48b2-ba31-f43481da58a7',
+  keyword: 'ans_d9cd6b91-1c77-41d8-a385-9dfab36d0c9e',
+  answer: 'Esribe la palabra del servicio te gustaría conocer:\n' +
+    '👉 *ventas* para conocer nuestros productos\n' +
+    '👉 *pedidos*  para ver el estado de tu pedido\n' +
+    '👉 *cancelar* para terminar la conversacion',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 3000,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'ae31038558c1496840455858d91d3d0a'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219993259344@s.whatsapp.net',
+    fromMe: false,
+    id: '82006320513A6C1CD5CFFD4D0DA9A656',
+    participant: undefined
+  },
+  messageTimestamp: 1708354516,
+  pushName: 'Elias U Xool-Feria🎮',
+  broadcast: false,
+  message: Message {
+    conversation: 'ventas',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'ventas',
+  from: '5219993259344'
+}
