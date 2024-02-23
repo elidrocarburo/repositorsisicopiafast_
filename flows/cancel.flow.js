@@ -1,4 +1,4 @@
-const { addKeyword, EVENTS } = require('@bot-whatsapp/bot')
+const { addKeyword } = require('@bot-whatsapp/bot')
 
 module.exports = addKeyword(['Cancelar', 'cancelar']).addAnswer('👋 Hasta luego, buen día.',
     { delay:3000 },

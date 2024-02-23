@@ -1,5 +1,7 @@
 const { addKeyword, EVENTS } = require('@bot-whatsapp/bot')
 const cancelFlow = require('./cancel.flow')
+const rateFlow = require('./rate.flow')
+const commentsFlow = require('./comments.flow')
 
 module.exports = addKeyword(EVENTS.WELCOME)
     .addAnswer('¡Buen día! Bienvenido a la pastelería \"La Condesa\"')
@@ -10,5 +12,5 @@ module.exports = addKeyword(EVENTS.WELCOME)
         '👉 *cancelar* para terminar la conversación en cualquier momento'
     ], 
     { capture: true, delay: 3000 }, null,
-    [cancelFlow]
+    [rateFlow, commentsFlow, cancelFlow]
 )
