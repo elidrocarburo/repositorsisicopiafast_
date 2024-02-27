@@ -15,9 +15,18 @@
         "@bot-whatsapp/database": "latest",
         "@bot-whatsapp/provider": "latest",
         "@bot-whatsapp/portal": "latest",
-        "@whiskeysockets/baileys": "6.5.0",
-        "wa-sticker-formatter": "4.4.4",
-        "cache-manager": "5.2.4"
+        "@whiskeysockets/baileys": "latest",
+        "wa-sticker-formatter": "latest",
+        "cache-manager": "latest",
+        
+        "@adiwajshing/baileys": "github:WhiskeySockets/Baileys",
+        "@adiwajshing/keyed-db": "latest",
+        "@ffmpeg-installer/ffmpeg": "latest",
+        "bot-ws-plugin-openai": "latest",
+        "dotenv": "latest",
+        "fluent-ffmpeg": "latest",
+        "mime-types": "latest",
+        "openai": "latest"
     },
     "devDependencies": {
         "eslint-plugin-bot-whatsapp": "latest",
