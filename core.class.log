@@ -2,10 +2,10 @@
   key: {
     remoteJid: '5219993259344@s.whatsapp.net',
     fromMe: false,
-    id: '7771FDC657DD004DCFABC78B996FB299',
+    id: '5C0535FB27E1BB666EAE7374518C5CBE',
     participant: undefined
   },
-  messageTimestamp: 1708363668,
+  messageTimestamp: 1708724494,
   pushName: 'Elias U Xool-Feria🎮',
   broadcast: false,
   message: Message {
@@ -19,8 +19,8 @@
   from: '5219993259344'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_ebda3031-3fbd-4a30-8a53-3d24eb48530b',
-  keyword: 'key_b7d6f6ee-5423-46e2-931f-c2eedc1008a8',
+  ref: 'ans_0a4c1f62-9303-4420-a33e-1ad1a47ac867',
+  keyword: 'key_0c568e3c-91f6-4323-a6b1-9a52ca6a5cef',
   answer: '¡Buen día! Bienvenido a la pastelería "La Condesa"',
   options: {
     media: null,
@@ -34,15 +34,15 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '4c750742bc7b33080efaaaea2584bc3e'
+  refSerialize: 'c7bd48e3399189873002368bbd100b60'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_05784f2e-44d8-4f66-9fb5-e466dd1f3881',
-  keyword: 'ans_ebda3031-3fbd-4a30-8a53-3d24eb48530b',
+  ref: 'ans_11e4fda4-568e-48b6-9f3b-e2b752c8b5c7',
+  keyword: 'ans_0a4c1f62-9303-4420-a33e-1ad1a47ac867',
   answer: 'Esribe la palabra del servicio te gustaría conocer:\n' +
     '👉 *ventas* para conocer nuestros productos\n' +
     '👉 *pedidos*  para ver el estado de tu pedido\n' +
-    '👉 *cancelar* para terminar la conversacion',
+    '👉 *cancelar* para terminar la conversación en cualquier momento',
   options: {
     media: null,
     buttons: [],
@@ -51,86 +51,120 @@
     delay: 3000,
     idle: null,
     ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '37f1155ce0f2c49f2eb35c4a8aae6d64'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219993259344@s.whatsapp.net',
+    fromMe: false,
+    id: 'D4BC0898BC44A365A6E7FA436C2B0482',
+    participant: undefined
+  },
+  messageTimestamp: 1708724499,
+  pushName: 'Elias U Xool-Feria🎮',
+  broadcast: false,
+  message: Message {
+    conversation: 'Calificar',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Calificar',
+  from: '5219993259344'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_111815b6-c1b4-41ea-aaae-bc2772ea8d6f',
+  keyword: 'key_7556c19c-b17b-4b40-833c-42f2acbc7514',
+  answer: 'Gracias, su calificación nos ayudará a mejorar el servicio.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 1000,
+    idle: null,
+    ref: null,
     nested: [],
     keyword: {},
     callback: false
   },
-  refSerialize: 'e54c6960e6f1f910a8e6bd5ea66f76d5'
+  refSerialize: 'a840a0f98d3c6b7bdcc2338ae88e44e6'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_55e12c16-4c3b-4df0-85db-a579e677a7ef',
+  keyword: 'ans_111815b6-c1b4-41ea-aaae-bc2772ea8d6f',
+  answer: '¿Del *1* al *5* ¿cómo se sientió con el servicio?\n' +
+    '*5* Excelente servicio\n' +
+    '*3* Estuvo medio\n' +
+    '*1* Pésimo servicio',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '59bd9b3ae8407721b10201f18e5be4fe'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5219993259344@s.whatsapp.net',
     fromMe: false,
-    id: '1E41AC68EE3A9BE5B82D6D1990ED542E',
+    id: '1663A488A4FFDD2B2604726DBFBAE580',
     participant: undefined
   },
-  messageTimestamp: 1708363678,
+  messageTimestamp: 1708724501,
   pushName: 'Elias U Xool-Feria🎮',
   broadcast: false,
   message: Message {
-    stickerMessage: StickerMessage {
-      url: 'https://mmg.whatsapp.net/v/t62.15575-24/23601559_2178989402432195_3436401809194496554_n.enc?ccb=11-4&oh=01_AdRLf_3lu__6XGJ8FNgMMCrKmBRkK7qiBDa5Ju4cK-8FFQ&oe=65FB0384&_nc_sid=5e03e0&mms3=true',
-      fileSha256: [Uint8Array],
-      fileEncSha256: [Uint8Array],
-      mediaKey: [Uint8Array],
-      mimetype: 'image/webp',
-      directPath: '/v/t62.15575-24/23601559_2178989402432195_3436401809194496554_n.enc?ccb=11-4&oh=01_AdRLf_3lu__6XGJ8FNgMMCrKmBRkK7qiBDa5Ju4cK-8FFQ&oe=65FB0384&_nc_sid=5e03e0',
-      fileLength: [Long],
-      mediaKeyTimestamp: [Long],
-      firstFrameLength: 6156,
-      firstFrameSidecar: [Uint8Array],
-      isAnimated: true,
-      stickerSentTs: [Long],
-      isAvatar: false
-    },
+    conversation: '5',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: '_event_media__d062ac22-5ed6-48f2-aefd-b756cc3da7f7',
+  body: '5',
   from: '5219993259344'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5219993259344@s.whatsapp.net',
     fromMe: false,
-    id: '19E284215D64A4043DCF1235F708C658',
+    id: 'E25903804EAF1F4B212C3352314E2BB4',
     participant: undefined
   },
-  messageTimestamp: 1708363687,
+  messageTimestamp: 1708724505,
   pushName: 'Elias U Xool-Feria🎮',
   broadcast: false,
   message: Message {
-    imageMessage: ImageMessage {
-      interactiveAnnotations: [],
-      scanLengths: [Array],
-      url: 'https://mmg.whatsapp.net/v/t62.7118-24/40161977_807007667925793_6567125779987412146_n.enc?ccb=11-4&oh=01_AdQjz4zWIPb-r3VGwiDITarKectCoc6RmQOfYE8AXUeuIg&oe=65FAFF77&_nc_sid=5e03e0&mms3=true',
-      mimetype: 'image/jpeg',
-      fileSha256: [Uint8Array],
-      fileLength: [Long],
-      height: 899,
-      width: 1599,
-      mediaKey: [Uint8Array],
-      fileEncSha256: [Uint8Array],
-      directPath: '/v/t62.7118-24/40161977_807007667925793_6567125779987412146_n.enc?ccb=11-4&oh=01_AdQjz4zWIPb-r3VGwiDITarKectCoc6RmQOfYE8AXUeuIg&oe=65FAFF77&_nc_sid=5e03e0',
-      mediaKeyTimestamp: [Long],
-      jpegThumbnail: [Uint8Array],
-      scansSidecar: [Uint8Array],
-      midQualityFileSha256: [Uint8Array]
-    },
+    conversation: 'Sugerencia',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: '_event_media__9231c54f-f8ca-42ef-bbd4-37607b83063c',
+  body: 'Sugerencia',
   from: '5219993259344'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_f11a6247-b079-4838-b6d8-e5a4d1ee10f6',
-  keyword: 'key_ec4c69fa-4a85-4b1f-9ba2-ee8bf324bcac',
-  answer: 'Permítame analizar la imagen',
+  ref: 'ans_0a4c1f62-9303-4420-a33e-1ad1a47ac867',
+  keyword: 'key_0c568e3c-91f6-4323-a6b1-9a52ca6a5cef',
+  answer: '¡Buen día! Bienvenido a la pastelería "La Condesa"',
   options: {
     media: null,
     buttons: [],
@@ -143,44 +177,116 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '62b862d2ce17c8a07d44b9eec4a059d1'
+  refSerialize: 'c7bd48e3399189873002368bbd100b60'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_11e4fda4-568e-48b6-9f3b-e2b752c8b5c7',
+  keyword: 'ans_0a4c1f62-9303-4420-a33e-1ad1a47ac867',
+  answer: 'Esribe la palabra del servicio te gustaría conocer:\n' +
+    '👉 *ventas* para conocer nuestros productos\n' +
+    '👉 *pedidos*  para ver el estado de tu pedido\n' +
+    '👉 *cancelar* para terminar la conversación en cualquier momento',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 3000,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '37f1155ce0f2c49f2eb35c4a8aae6d64'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5219993259344@s.whatsapp.net',
     fromMe: false,
-    id: 'DEED8B5323C665F081E29C983BF73A23',
+    id: '5DB80D132A7AB568B8D03E46D4AED24C',
     participant: undefined
   },
-  messageTimestamp: 1708363695,
+  messageTimestamp: 1708724510,
   pushName: 'Elias U Xool-Feria🎮',
   broadcast: false,
   message: Message {
-    audioMessage: AudioMessage {
-      url: 'https://mmg.whatsapp.net/v/t62.7117-24/21387448_1100257427830772_8229853231420675335_n.enc?ccb=11-4&oh=01_AdT2ZjVPJUDqkbnhoDy0I5U2PVJHqufKd61sURl7WFAIyw&oe=65FAEF00&_nc_sid=5e03e0&mms3=true',
-      mimetype: 'audio/ogg; codecs=opus',
-      fileSha256: [Uint8Array],
-      fileLength: [Long],
-      seconds: 1,
-      ptt: true,
-      mediaKey: [Uint8Array],
-      fileEncSha256: [Uint8Array],
-      directPath: '/v/t62.7117-24/21387448_1100257427830772_8229853231420675335_n.enc?ccb=11-4&oh=01_AdT2ZjVPJUDqkbnhoDy0I5U2PVJHqufKd61sURl7WFAIyw&oe=65FAEF00&_nc_sid=5e03e0',
-      mediaKeyTimestamp: [Long],
-      waveform: [Uint8Array]
-    },
+    conversation: 'Sugerencia',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: '_event_voice_note__e1b0ca08-8ce3-4a90-aeb1-9d27bf4c2c59',
+  body: 'Sugerencia',
   from: '5219993259344'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_327e589a-7b71-4762-a670-a192b467839e',
-  keyword: 'key_555a6ae2-0258-467a-afc3-ff98755e49b8',
-  answer: 'Deme un mommento para escuchar el audio.',
+  ref: 'ans_35c61f30-0357-44ac-b05a-81c4ce44bac9',
+  keyword: 'key_09670295-84cd-418a-86ab-594d91aa5839',
+  answer: '¿Alguna sugerencia para mejorar el servicio?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '308415ee35454a07d6b593dc23ae503b'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219993259344@s.whatsapp.net',
+    fromMe: false,
+    id: 'C130A0A3956DF95D0C679C0447AA13B9',
+    participant: undefined
+  },
+  messageTimestamp: 1708724512,
+  pushName: 'Elias U Xool-Feria🎮',
+  broadcast: false,
+  message: Message {
+    conversation: 'Ninguna',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Ninguna',
+  from: '5219993259344'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219993259344@s.whatsapp.net',
+    fromMe: false,
+    id: 'A07A360AED7A7692693FECDCDC643439',
+    participant: undefined
+  },
+  messageTimestamp: 1708724515,
+  pushName: 'Elias U Xool-Feria🎮',
+  broadcast: false,
+  message: Message {
+    conversation: 'F',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'F',
+  from: '5219993259344'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0a4c1f62-9303-4420-a33e-1ad1a47ac867',
+  keyword: 'key_0c568e3c-91f6-4323-a6b1-9a52ca6a5cef',
+  answer: '¡Buen día! Bienvenido a la pastelería "La Condesa"',
   options: {
     media: null,
     buttons: [],
@@ -193,5 +299,31 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '34a570ad53911626b25ac45cfca8b0aa'
+  refSerialize: 'c7bd48e3399189873002368bbd100b60'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_11e4fda4-568e-48b6-9f3b-e2b752c8b5c7',
+  keyword: 'ans_0a4c1f62-9303-4420-a33e-1ad1a47ac867',
+  answer: 'Esribe la palabra del servicio te gustaría conocer:\n' +
+    '👉 *ventas* para conocer nuestros productos\n' +
+    '👉 *pedidos*  para ver el estado de tu pedido\n' +
+    '👉 *cancelar* para terminar la conversación en cualquier momento',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 3000,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '37f1155ce0f2c49f2eb35c4a8aae6d64'
 }
